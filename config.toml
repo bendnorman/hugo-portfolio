@@ -1,4 +1,22 @@
 baseURL = "http://bendnorman.github.io/"
 languageCode = "en-us"
 title = "Bennett Dell Norman"
-theme = "ananke"
+theme = "archie"
+
+[params]
+	mode="auto"
+	useCDN=false
+	subtitle = "Howdy! I like using geospatial data to understand housing, inequality and the climate. Here are some of my projects."
+
+
+# Social Tags
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/bendnorman"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/bendnorman"
